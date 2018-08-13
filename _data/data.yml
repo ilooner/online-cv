@@ -108,7 +108,7 @@ experiences:
       time: Nov 2009 - Sep 2011
       company: CASOS, Pittsburgh, PA
       details: |
-        - Designed and implemented a user friendly drag and drop interface, which allowed users of CASOS's Automap system to easily create script files that are executable by Automap. The interface is available for download as part of the Automap package at http://www.casos.cs.cmu.edu/projects/automap/software.php. The program can be accessed by launching Automap, going to the tools menu, and selecting script runner.
+        - Designed and implemented a user friendly drag and drop interface, which allowed users of CASOS's Automap system to easily create script files that are executable by Automap. The interface is available for download as part of the Automap package at [http://www.casos.cs.cmu.edu/projects/automap/software.php](http://www.casos.cs.cmu.edu/projects/automap/software.php). The program can be accessed by launching Automap, going to the tools menu, and selecting script runner.
         - Maintained and augmented a large body of code (Automap's script library).
         - Designed and created an inter-process logging system based on log4j and integrated it with the Automap code base.
         - Implemented many small special purpose programs and user interfaces.
