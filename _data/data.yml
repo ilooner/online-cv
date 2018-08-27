@@ -59,6 +59,18 @@ experiences:
           - Fixed race conditions and memory leaks in the execution engine.
           - General refactoring work to improve project testability, build stability, and maintainability.
 
+    - role: Apache Drill Committer
+      time: May 2018 - Present
+      company: The Apache Software Foundation
+      details: |
+        Committer for Apache Drill.
+
+    - role: Apache Apex Committer
+      time: Jun 2015 - Present
+      company: The Apache Software Foundation
+      details: |
+        Committer for Apache Apex.
+
     - role: Software Engineer
       time: Dec 2016 - Aug 2017
       company: GE Digital, San Ramon, CA
