@@ -52,9 +52,11 @@ experiences:
       time: Aug 2017 - Present
       company: MapR Technologies, San Jose, CA
       details: |
-        Primarily working on Apache Drill:
+        Currently working on:
+          - Kubernetes and cloud services.
 
-          - Designing and implementing resource management for concurrent workloads.
+        Work on Drill:
+          - Started the resource management project for concurrent queries on Drill.
           - Worked on operator spilling when processing large data sets.
           - Fixed race conditions and memory leaks in the execution engine.
           - General refactoring work to improve project testability, build stability, and maintainability.
