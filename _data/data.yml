@@ -48,8 +48,11 @@ education:
       details:
 
 experiences:
+    - role: Senior Staff Software Engineer
+      time: Apr 2018 - Present
+      company: MapR Technologies, San Jose, CA
     - role: Staff Software Engineer
-      time: Aug 2017 - Present
+      time: Aug 2017 - Apr 2018
       company: MapR Technologies, San Jose, CA
       details: |
         Currently working on:
@@ -127,10 +130,3 @@ experiences:
         - Designed and created an inter-process logging system based on log4j and integrated it with the Automap code base.
         - Implemented many small special purpose programs and user interfaces.
 
-    - role: Undergraduate Research Assistant
-      time: Jan 2010 - Dec 2010
-      company: Carnegie Mellon University, Pittsburgh, PA
-      details: |
-        - Took electrical measurements of magnetic tunnel junctions with an atomic force microscope and analyzed the noise in the collected data.
-        - Improved existing Matlab based measurement software.
-        - Created a program that could determine the size statistics of many magnetic tunnel junctions given a noisy scanning electron microscope image.
