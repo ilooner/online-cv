@@ -42,7 +42,8 @@ experiences:
       time: June 2019 - Present
       company: Netflix
       details: |
-        Work on RDE (Realtime Data Engines):
+        Work on RDE (Realtime Data Engines)
+
           - RDE is the uber team comprised of the Kafka and Flink subteams. Have been oncall for both Flink and Kafka infrastructure.
             And provided user support for both platforms.
           - Co-designed strategy for a large scale migration of several thousand Flink jobs from
@@ -53,12 +54,16 @@ experiences:
             their data needs to be published to.
           - Implemented automated topic move, which allows topics to be seamless moved to a new cluster without disrupting producers
             or consumers.
+
         Work on Kafka Team
+
           - Operated the Kafka control plane, which manages all of Netflix's Kafka clusters.
           - Implemented cluster metadata improvements for the Kafka control plane.
           - Implemented authorization bug fixes for Netflix's Kafka fork.
           - Planned and executing migration from non-secure kafka clusters to secure kafka clusters.
+
         Work on Flink Team
+
           - Operated the Flink control plane, which manages thousands of production Flink jobs.
           - Implemented numerous bugfixes and improvements for Netflix's Flink fork, Netflix's internal Flink library, and the Flink control plane.
           - Optimized Netflix's internal Avro serialization and deserialization libraries to get more than a 100x performance improvement.
