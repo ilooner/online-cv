@@ -82,7 +82,8 @@ experiences:
       time: Aug 2017 - Apr 2019
       company: MapR Technologies, San Jose, CA
       details: |
-        Work on MapR Cloud:
+        Work on MapR Cloud
+
           - Designed and created a service to deploy, manage, and access MapR clusters in the cloud.
             Evaluated AWS, Azure, and GCP across multiple dimensions to pick the cloud with the highest ROI to
             launch the service on. Met with members of the Azure cloud team and AKS (Azure Kubernetes Service).
@@ -90,7 +91,9 @@ experiences:
           - Designed security model to allow remote access to the MapR cluster through
             the browser for users.
           - Designed security model for operators to manage the clusters.
-        Work on Drill:
+
+        Work on Drill
+
           - Started the resource management project for concurrent queries on Drill.
           - Worked on operator spilling when processing large data sets.
           - Fixed race conditions and memory leaks in the execution engine.
