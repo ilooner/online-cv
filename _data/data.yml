@@ -73,8 +73,8 @@ experiences:
           - Implemented robust autoscaling for thousands of Flink jobs in production.
             This has been running in production for several years. Reduced oncall burden and
             yielded a large yearly cost savings.
-          - LinkedIn Engineering autoscaling talk <https://www.youtube.com/watch?v=vksWF8UgWXc>
-          - Flink Forward atuoscaling talk <https://www.youtube.com/watch?v=NV0jvA5ZDNc&t=755s>
+          - [LinkedIn Engineering autoscaling talk](https://www.youtube.com/watch?v=vksWF8UgWXc)
+          - [Flink Forward atuoscaling talk](https://www.youtube.com/watch?v=NV0jvA5ZDNc&t=755s)
     - role: Senior Staff Software Engineer
       time: Apr 2019 - June 2019
       company: MapR Technologies, San Jose, CA
