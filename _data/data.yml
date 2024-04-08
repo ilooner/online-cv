@@ -20,16 +20,6 @@ sidebar:
     bitbucket:
     stack-overflow: 3811080/ilooner
     codewars:
-        
-    interests:
-      - item: Biking
-        link:
-
-      - item: Hiking
-        link:
-
-      - item: Weight Lifting
-        link:
 
 education:
     - degree: BS in Electrical and Computer Engineering
@@ -48,22 +38,58 @@ education:
       details:
 
 experiences:
+    - role: Senior Software Engineer
+      time: June 2019 - Present
+      company: Netflix
+      details: |
+        Work on RDE (Realtime Data Engines):
+          - RDE is the uber team comprised of the Kafka and Flink subteams. Have been oncall for both Flink and Kafka infrastructure.
+            And provided user support for both platforms.
+          - Co-designed strategy for a large scale migration of several thousand Flink jobs from
+            a legacy control plane to the new RDE Flink control plane.
+          - Worked on a team to successfully execute the migration without user job disruption and
+            without data loss.
+          - Implemented automated topic mapping for producers, which allows producers to automatically discover the kafka cluster
+            their data needs to be published to.
+          - Implemented automated topic move, which allows topics to be seamless moved to a new cluster without disrupting producers
+            or consumers.
+        Work on Kafka Team
+          - Operated the Kafka control plane, which manages all of Netflix's Kafka clusters.
+          - Implemented cluster metadata improvements for the Kafka control plane.
+          - Implemented authorization bug fixes for Netflix's Kafka fork.
+          - Planned and executing migration from non-secure kafka clusters to secure kafka clusters.
+        Work on Flink Team
+          - Operated the Flink control plane, which manages thousands of production Flink jobs.
+          - Implemented numerous bugfixes and improvements for Netflix's Flink fork, Netflix's internal Flink library, and the Flink control plane.
+          - Optimized Netflix's internal Avro serialization and deserialization libraries to get more than a 100x performance improvement.
+          - Integrated Netflix's avro serialization and deserialization libraries with Flink.
+          - Worked with our largest user to migrate their large stateful Flink jobs with 800+ cpus each from JSON to AVRO. After
+            migrating to avro, job state size and number of cpus was cut in half, resulting in a large cost savings.
+          - Implemented robust autoscaling for thousands of Flink jobs in production.
+            This has been running in production for several years. Reduced oncall burden and
+            yielded a large yearly cost savings.
+          - LinkedIn Engineering autoscaling talk https://www.youtube.com/watch?v=vksWF8UgWXc
+          - Flink Forward atuoscaling talk https://www.youtube.com/watch?v=NV0jvA5ZDNc&t=755s
     - role: Senior Staff Software Engineer
-      time: Apr 2018 - Present
+      time: Apr 2019 - June 2019
       company: MapR Technologies, San Jose, CA
     - role: Staff Software Engineer
-      time: Aug 2017 - Apr 2018
+      time: Aug 2017 - Apr 2019
       company: MapR Technologies, San Jose, CA
       details: |
-        Currently working on:
-          - Kubernetes and cloud services.
-
+        Work on MapR Cloud:
+          - Designed and created a service to deploy, manage, and access MapR clusters in the cloud.
+            Evaluated AWS, Azure, and GCP across multiple dimensions to pick the cloud with the highest ROI to
+            launch the service on. Met with members of the Azure cloud team and AKS (Azure Kubernetes Service).
+          - Deployed on Azure with AKS (Azure Kuber).
+          - Designed security model to allow remote access to the MapR cluster through
+            the browser for users.
+          - Designed security model for operators to manage the clusters.
         Work on Drill:
           - Started the resource management project for concurrent queries on Drill.
           - Worked on operator spilling when processing large data sets.
           - Fixed race conditions and memory leaks in the execution engine.
           - General refactoring work to improve project testability, build stability, and maintainability.
-
     - role: Apache Drill Committer
       time: May 2018 - Present
       company: The Apache Software Foundation
