@@ -42,6 +42,16 @@ experiences:
       time: June 2019 - Present
       company: Netflix
       details: |
+        Work on Datamesh Team
+        
+          - Oncall and user support for Datamesh, a streaming pipeline abstraction layer built on top of Flink and Kafka.
+          - Co-architected and implemented a multi-tenant Kafka architecture for efficiently provisioning and scaling
+            tens of thousands of kafka topics across hundreds of Kafka clusters. Improved pperability, maintainability,
+            and scalability with the new design.
+          - Implemented cost optimizations for the Flink and Kafka infrastructure in Datamesh resulting in a large
+            annual cost savings..
+          - Did critical infrastructure preparation for Netflix's largest live events (NFL and Mike Tyson).
+        
         Work on RDE (Realtime Data Engines)
 
           - RDE is the uber team comprised of the Kafka and Flink subteams. Have been oncall for both Flink and Kafka infrastructure.
