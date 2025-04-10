@@ -43,7 +43,7 @@ experiences:
         
           - Oncall and user support for Datamesh, a streaming pipeline abstraction layer built on top of Flink and Kafka.
           - Co-architected and implemented a multi-tenant Kafka architecture for efficiently provisioning and scaling
-            tens of thousands of kafka topics across hundreds of Kafka clusters. Improved pperability, maintainability,
+            tens of thousands of kafka topics across hundreds of Kafka clusters. Improved operability, maintainability,
             and scalability with the new design.
           - Implemented cost optimizations for the Flink and Kafka infrastructure in Datamesh resulting in a large
             annual cost savings..
