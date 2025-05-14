@@ -46,7 +46,7 @@ experiences:
             tens of thousands of kafka topics across hundreds of Kafka clusters. Improved operability, maintainability,
             and scalability with the new design.
           - Implemented cost optimizations for the Flink and Kafka infrastructure in Datamesh resulting in a large
-            annual cost savings..
+            annual cost savings.
           - Did critical infrastructure preparation for Netflix's largest live events (NFL and Mike Tyson).
         
         Work on RDE (Realtime Data Engines)
@@ -67,7 +67,7 @@ experiences:
           - Operated the Kafka control plane, which manages all of Netflix's Kafka clusters.
           - Implemented cluster metadata improvements for the Kafka control plane.
           - Implemented authorization bug fixes for Netflix's Kafka fork.
-          - Planned and executing migration from non-secure kafka clusters to secure kafka clusters.
+          - Planned migration from non-secure kafka clusters to secure kafka clusters.
 
         Work on Flink Team
 
@@ -77,7 +77,7 @@ experiences:
           - Integrated Netflix's avro serialization and deserialization libraries with Flink.
           - Worked with our largest user to migrate their large stateful Flink jobs with 800+ cpus each from JSON to AVRO. After
             migrating to Avro, job state size and number of cpus was cut in half, resulting in a large cost savings.
-          - Implemented robust autoscaling for thousands of Flink jobs in production.
+          - Implemented robust autoscaling for tens of thousands of Flink jobs in production.
             This has been running in production for several years. Reduced oncall burden and
             yielded a large yearly cost savings.
           - [LinkedIn Engineering autoscaling talk](https://www.youtube.com/watch?v=vksWF8UgWXc)
@@ -94,7 +94,7 @@ experiences:
           - Designed and created a service to deploy, manage, and access MapR clusters in the cloud.
             Evaluated AWS, Azure, and GCP across multiple dimensions to pick the cloud with the highest ROI to
             launch the service on. Met with members of the Azure cloud team and AKS (Azure Kubernetes Service).
-          - Deployed on Azure with AKS (Azure Kuber).
+          - Deployed on Azure with AKS (Azure Kubernetes Service).
           - Designed security model to allow remote access to the MapR cluster through
             the browser for users.
           - Designed security model for operators to manage the clusters.
