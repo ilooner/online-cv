@@ -35,8 +35,20 @@ education:
       details:
 
 experiences:
+    - role: Staff Software Engineer
+      time: Jul 2025 - Feb 2026
+      company: Google
+      details: |
+          - Tech lead for Google Managed Kafka (GMK).
+          - Resolved critical customer, stability, and security issues.
+          - Mentored junior engineers on the team.
+          - Developed a Kafka version upgrade strategy for the service.
+          - Provided guidance to leadership on the roadmap for the service.
+          - Implemented automatic detection of service outage disasters and wrote recovery runbooks. These service outage disasters 
+            included data loss in the control plane, as well as inconsistent control plane state.
+
     - role: Senior Software Engineer
-      time: June 2019 - Present
+      time: June 2019 - Apr 2025
       company: Netflix
       details: |
         Work on Datamesh Team
